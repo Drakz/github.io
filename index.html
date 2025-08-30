@@ -159,6 +159,17 @@
     .nav a .full{ display:none; }
     .nav a .short{ display:inline; }
     }
+
+    .projects .thumb{
+        background-repeat:no-repeat;
+        background-size:100%;
+    }
+
+    @media (max-width: 560px){
+        .projects .thumb{
+            background-size:150%;
+        }
+    }
     </style>
 </head>
 <body>
@@ -299,7 +310,7 @@
         <h2 style="margin:.6rem 0 1rem; font-size:clamp(1.6rem,3.2vw,2.4rem); font-family:'Playfair Display', ui-serif, Georgia, serif; text-align:center;">Experience</h2>
         <div class="grid">
             <article class="card span-6" data-reveal>
-                <div class="thumb" aria-hidden="true" style="background-image: url('ravendawn.png');background-position: center;background-size: 100%;"></div>
+                <div class="thumb" aria-hidden="true" style="background-image: url('ravendawn.png');background-position: center;"></div>
                 <h3>Tavernlight Games</h3>
                 <div style="margin-top:.75rem; margin-bottom:.75rem; display:flex; gap:.5rem; flex-wrap:wrap;">
                     <span class="tag">C++</span>
@@ -312,7 +323,7 @@
                 <p>Implemented gameplay systems and supporting tools in C++/Lua, built UIs and prototypes with targeted OpenGL optimizations, fully restructured the mission system to improve performance, organization, and maintainability. I also developed and maintained C/C++ and Lua features for digital entertainment products, integrated Jenkins/Docker build and delivery pipelines, handled bug fixes and code reviews and collaborated closely with multidisciplinary teams across art, design, and QA.</p>
         </article>
             <article class="card span-6" data-reveal>
-                <div class="thumb" aria-hidden="true" style="background-image: url('gigalink.png');background-position: center;background-size: 100%;"></div>
+                <div class="thumb" aria-hidden="true" style="background-image: url('gigalink.png');background-position: center;"></div>
                 <h3>Gigalink</h3>
                 <div style="margin-top:.75rem; margin-bottom:.75rem; display:flex; gap:.5rem; flex-wrap:wrap;">
                     <span class="tag">Ruby on Rails</span>
@@ -325,8 +336,8 @@
                 <p>Led Ruby on Rails development—designing REST APIs and data models, background jobs, and tests—while shipping real-time monitoring/analysis endpoints. I planned and launched ERP modules to automate manual workflows, built a B2B sales module, and integrated with Serasa for credit scoring. I also improved interoperability via back-end integrations, created an infrastructure-metrics app with Grafana, wired Discord alerts for L1 (instability/ticketing), and built Telegram bots for outage/normalization, MQTT backbone state, and field-sales feasibility checks, rewrote deployment pipelines and optimized CI/CD with Jenkins/Docker, established team guidelines, and drove modular architecture and code review/testing practices.</p>
             </article>
             <article class="card span-4" data-reveal>
-                <div class="thumb" aria-hidden="true" style="background-image: url('papouff.png');background-position: center;background-size: 100%;"></div>
-                <h3>Papo UFF</h3>
+                <div class="thumb" aria-hidden="true" style="background-image: url('papouff.png');background-position: center;"></div>
+                <h3>PAPO UFF</h3>
                 <div style="margin-top:.75rem; margin-bottom:.75rem; display:flex; gap:.5rem; flex-wrap:wrap;">
                     <span class="tag">React</span>
                     <span class="tag">Node.js</span>
